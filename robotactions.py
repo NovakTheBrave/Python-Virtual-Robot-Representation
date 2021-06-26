@@ -325,7 +325,5 @@ placed is 0.
     print(f"The kit tray has {greenkit_num} green parts. The green bin has {greenbin_num} parts left.\n")
     print(f"The kit tray has {bluekit_num} blue parts. The blue bin has {bluebin_num} parts left.\n")
     print("\n========================================\n")
-
-
-#Run the robot through the course
-run_bot_1()
+    
+    
