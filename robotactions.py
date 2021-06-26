@@ -1,6 +1,6 @@
 # Call in first_pos as fp, and robot_position as robpos.
-from robot_movement.initial_state.initial_conditions import first_pos as fp
-from robot_movement.movepath.robot_position import robot_positon as robpos
+from initial_conditions import first_pos as fp
+from robot_position import robot_positon as robpos
 
 
 # Two boolean variables used to represent the status of the grippers.
@@ -327,5 +327,5 @@ placed is 0.
     print("\n========================================\n")
 
 
-"Run the robot through the course"
+#Run the robot through the course
 run_bot_1()
